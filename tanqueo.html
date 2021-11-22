@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"
+        defer></script>
+    <title>Tanqueo Vehicular</title>
+</head>
+
+<body>
+    <header class="bg-light sticky-top">
+        <nav class="navbar w-70 ali navbar-expand-lg navbar-light ">
+            <div class="container-fluid col-log-6 justify-content-start">
+                <div class="nav">
+                    <img class="logo" width="241" height="183" src="img/logo.svg">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-log-6 justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav nav-pills d-flex flex-row-reverse bd-highlight ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/index.html">Cerrar Sesion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/registro.html">Historial de Transacciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/recargar.html">Recargar Mi Cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/registro.html">Editar Mi Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/registro.html">Registrar Vehiculos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/registro.html">Ver Vehiculos</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid contenedor w-70">
+        <div class="row">
+            <!-- Valor combustible Extra -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-primary shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-primary text-uppercasem b-1">
+                                    Galon Extra
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    $20,000
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Valor combustible Corriente -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                    Galon Corriente
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    $15,000
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Puntos Acumulados -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-black text-uppercase mb-1">
+                                    Puntos Acumulados
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    $3.515
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Saldo Disponible -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-warning shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                    Saldo Disonible
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                    $351.496
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid contenedor w-60">
+        <div class="col-lg-12  center-form d-flex flex-column align-items-center justify-content-center">
+        <h1 class="mt-5 mb-5 text-light">Tanquear mi Vehiculo</h1>
+        </div>
+        
+        <div class="col-log-12 w-70 h-1000">
+            <div class="col-md-6">
+                <label for="formGroupExampleInput2" class="form-label text-light">Vehiculo a Tanquear</label>
+                <select id="inputState" class="form-select mb-3">
+                    <option selected>Seleccione</option>
+                    <option value="debito">Tarjeta debito</option>
+                    <option value="credito">Tarjeta de Credito</option>
+                </select>
+                <label for="formGroupExampleInput2" class="form-label text-light">Tipo de Gasolina</label>
+                <select id="inputState" class="form-select mb-3">
+                    <option selected>Seleccione</option>
+                    <option value="debito">EXTRA</option>
+                    <option value="credito">CORRIENTE</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="formGroupExampleInput" class="form-label text-light ">Cantidad de Galones</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="8">
+            </div>
+            <div class="col-12">
+                <div class="form-check mb-5">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label text-light" for="gridCheck ">
+                        Deseo redimir mis puntos que equivalen a 5 galones y cuestan $35.000
+                    </label>
+                </div>
+            </div>
+            <div class="col-8">
+                <table class="table mb-5 table-bordered border-light">
+                    <thead>
+                        <tr>
+                            <th class="text-light" scope="col">Cantidad de Galones</th>
+                            <th class="text-light" scope="col">Tipo de Gasolina</th>
+                            <th class="text-light" scope="col">Valor Unitario</th>
+                            <th class="text-light" scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-light">8</td>
+                            <td class="text-light">EXTRA</td>
+                            <td class="text-light">8.000</td>
+                            <td class="text-light">72.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-4">
+                <table class="table mb-5 table-bordered border-light">
+                    <thead>
+                        <tr>
+                            <th class="text-light" scope="col">Galones Redimidos</th>
+                            <th class="text-light" scope="col">Cantidad de Puntos</th>
+                            <th class="text-light" scope="col">Ahorro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-light">8</td>
+                            <td class="text-light">EXTRA</td>
+                            <td class="text-light">8.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12">
+                <input type="submit" class="btn btn-primary" value="Tanquear"></input>
+            </div>
+        </div>
+        
+    </section>
+</body>
+
+</html>
